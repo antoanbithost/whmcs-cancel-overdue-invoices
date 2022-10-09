@@ -44,3 +44,4 @@ function cancel_overdue_invoices($vars) {
 add_hook('DailyCronJob', 1, 'cancel_overdue_invoices');
 
 //add_hook('AfterCronJob', 1, 'cancel_overdue_invoices');
+?>
